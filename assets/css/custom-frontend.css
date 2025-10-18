@@ -2426,3 +2426,13 @@ body.rtl .e-con {
         display: none
     }
 }
+
+
+.footericons .pxl-link__item a{
+    background-color: #ffffff14;
+    box-shadow: 0px 0px 6px 0px rgba(255, 255, 255, 0.16) inset;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #ffffff14;
+    padding: 9px 12px 9px 12px;
+}
