@@ -2436,3 +2436,7 @@ body.rtl .e-con {
     border-color: #ffffff14;
     padding: 9px 12px 9px 12px;
 }
+
+.elementor-2789 .elementor-element.elementor-element-8579298:not(.elementor-motion-effects-element-type-background){
+    background: transparent;
+}
