@@ -91,7 +91,11 @@
           //     "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=300&page=1&sparkline=false"
           // );
 
-          let data =[ 
+          let data =[
+            { "id": "javascript", "symbol": "js", "name": "JavaScript", "image": "/icons/javascript.svg" }, 
+            { "id": "python", "symbol": "py", "name": "Python", "image": "/icons/python.svg" }, 
+            { "id": "react", "symbol": "react", "name": "React", "image": "/icons/react.svg" }, 
+            { "id": "nodejs", "symbol": "node", "name": "Node.js", "image": "/icons/nodejs.svg" }, 
             { "id": "javascript", "symbol": "js", "name": "JavaScript", "image": "/icons/javascript.svg" }, 
             { "id": "python", "symbol": "py", "name": "Python", "image": "/icons/python.svg" }, 
             { "id": "react", "symbol": "react", "name": "React", "image": "/icons/react.svg" }, 
@@ -111,17 +115,21 @@
             { "id": "postgresql", "symbol": "postgres", "name": "PostgreSQL", "image": "/icons/postgresql.svg" }, 
             { "id": "firebase", "symbol": "firebase", "name": "Firebase", "image": "/icons/firebase.svg" }, 
             { "id": "flask", "symbol": "flask", "name": "Flask", "image": "/icons/flask.svg" }, 
-            { "id": "django", "symbol": "django", "name": "Django", "image": "/icons/django.svg" }, 
+            { "id": "vscode", "symbol": "vscode", "name": "Vscode", "image": "/icons/vscode.svg" }, 
+            { "id": "digital-ocean", "symbol": "digital-ocean", "name": "Digital Ocean", "image": "/icons/digital-ocean.svg" }, 
             { "id": "php", "symbol": "php", "name": "PHP", "image": "/icons/php.svg" }, 
             { "id": "jquery", "symbol": "jquery", "name": "jQuery", "image": "/icons/jquery.svg" }, 
             { "id": "kotlin", "symbol": "kotlin", "name": "Android (Kotlin)", "image": "/icons/kotlin.svg" }, 
             { "id": "swift", "symbol": "swift", "name": "iOS (Swift)", "image": "/icons/swift.svg" }, 
+            { "id": "bitbucket", "symbol": "bitbucket", "name": "Bitbucket", "image": "/icons/bitbucket.svg" }, 
             { "id": "wordpress", "symbol": "wp", "name": "WordPress", "image": "/icons/wordpress.svg" }, 
             { "id": "tailwindcss", "symbol": "tw", "name": "Tailwind CSS", "image": "/icons/tailwind.svg" }, 
             { "id": "nextjs", "symbol": "next", "name": "Next.js", "image": "/icons/nextjs.svg" }, 
+            { "id": "aws", "symbol": "aws", "name": "AWS", "image": "/icons/aws.svg" }, 
             { "id": "framer-motion", "symbol": "framer", "name": "Framer Motion", "image": "/icons/framer-motion.svg" }, 
             { "id": "photoshop", "symbol": "ps", "name": "Adobe Photoshop", "image": "/icons/photoshop.svg" }, 
             { "id": "figma", "symbol": "figma", "name": "Figma", "image": "/icons/figma.svg" }, 
+            { "id": "adobe-illustrator", "symbol": "adobe-illustrator", "name": "Adobe Illustrator", "image": "/icons/adobe-illustrator.svg" }, 
             { "id": "react-native", "symbol": "rn", "name": "React Native", "image": "/icons/react-native.svg" }, 
             { "id": "flutter", "symbol": "flutter", "name": "Flutter", "image": "/icons/flutter.svg" } 
           ];
